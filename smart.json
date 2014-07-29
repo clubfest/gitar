@@ -3,6 +3,9 @@
     "iron-router": {},
     "midi-js": {
       "path": "/home/lam/meteor_apps/local_packages/midi-js"
+    },
+    "raphael-js": {
+      "path": "/home/lam/meteor_apps/local_packages/raphael-js"
     }
   }
 }

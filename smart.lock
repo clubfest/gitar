@@ -5,6 +5,9 @@
       "iron-router": {},
       "midi-js": {
         "path": "../meteor_apps/local_packages/midi-js"
+      },
+      "raphael-js": {
+        "path": "../meteor_apps/local_packages/raphael-js"
       }
     },
     "packages": {
@@ -15,6 +18,9 @@
       },
       "midi-js": {
         "path": "../meteor_apps/local_packages/midi-js"
+      },
+      "raphael-js": {
+        "path": "../meteor_apps/local_packages/raphael-js"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
