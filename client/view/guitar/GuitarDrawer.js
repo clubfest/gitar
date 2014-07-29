@@ -43,11 +43,11 @@ GuitarDrawer = {
       for (var k = 0; k < 10; k++){
         var x = k * this.keyWidth;
         var y = i * this.keyHeight;
-        if (k % 2) {
+        // if (k % 2) {
           var attr = {fill: '#e80'}
-        } else {
-          var attr = {fill: '#e90'}
-        }
+        // } else {
+          // var attr = {fill: '#e90'}
+        // }
         var key = this.paper
           .rect(x, y, this.keyWidth, this.keyHeight)
           .attr(attr)
@@ -57,9 +57,11 @@ GuitarDrawer = {
 
         }
         var start = function(){
+          this.attr({fill: '#fa0'});
           MIDI.noteOn(0, 60, 100);
         }
         var up = function(){
+          this.attr({fill: '#e80'});
           MIDI.noteOff(0, 60);
         }
       }
