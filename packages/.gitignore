@@ -2,3 +2,6 @@ iron-router
 blaze-layout
 midi-js
 raphael-js
+iron-layout
+iron-core
+iron-dynamic-template

@@ -1,4 +1,6 @@
 
 Template.guitar.rendered = function(){
-  GuitarDrawer.init();
+  GuitarGui.init();
+  GuitarKeyboard.init();
+  Sound.init();
 };
